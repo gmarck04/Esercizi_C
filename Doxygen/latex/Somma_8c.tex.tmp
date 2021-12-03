@@ -1,0 +1,42 @@
+\hypertarget{Somma_8c}{}\doxysection{Riferimenti per il file Somma.\+c}
+\label{Somma_8c}\index{Somma.c@{Somma.c}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+Grafo delle dipendenze di inclusione per Somma.\+c\+:
+% FIG 0
+\doxysubsection*{Funzioni}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{Somma_8c_ad449c2894ea191de9b8c34564355ca2f}{somma}} (int a, int b)
+\begin{DoxyCompactList}\small\item\em funzione che somma i parametri \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{Somma_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{Somma_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+int {\bfseries main} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentazione delle funzioni}
+\mbox{\Hypertarget{Somma_8c_ad449c2894ea191de9b8c34564355ca2f}\label{Somma_8c_ad449c2894ea191de9b8c34564355ca2f}} 
+\index{Somma.c@{Somma.c}!somma@{somma}}
+\index{somma@{somma}!Somma.c@{Somma.c}}
+\doxysubsubsection{\texorpdfstring{somma()}{somma()}}
+{\footnotesize\ttfamily int somma (\begin{DoxyParamCaption}\item[{int}]{a,  }\item[{int}]{b }\end{DoxyParamCaption})}
+
+
+
+funzione che somma i parametri 
+
+
+\begin{DoxyParams}{Parametri}
+{\em int} & a\+: primo valore da sommare \\
+\hline
+{\em int} & b\+: secondo valore da sommare \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Restituisce}
+int\+: la funzione ritorna la somma di 5 e 6 
+\end{DoxyReturn}
+\begin{DoxyDate}{Data}
+04/11/2021 
+\end{DoxyDate}
+\begin{DoxyAuthor}{Autore}
+Giovanni Marchetto 
+\end{DoxyAuthor}
