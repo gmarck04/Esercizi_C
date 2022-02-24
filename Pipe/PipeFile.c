@@ -9,8 +9,8 @@ void main()
     int fd[2];
     pipe(fd);
     int pid1 = fork();
-    File *file;
-    file = fopen(out.txt, "w");
+    FILE *file;
+    file = fopen("out.txt", "w");
     if (pid1 == 0) //Processo figlio 1
     {
         close(1);
@@ -26,7 +26,7 @@ void main()
         if (pid2 == 0) //Processo figlio 2
         {
             close(0);
-            dup(file);
+            dup(fd[0]);
             close(fd[0]);
             close(fd[1]);
             char cmd[] = "wc -l";
@@ -37,8 +37,8 @@ void main()
         {
             wait(&status);
             close(fd[0]);
-            close(fd[1]);
             printf("I processi figli hanno terminato\n");
+            fprintf(file, "%d\n",fd[1]);
         }
 
 
